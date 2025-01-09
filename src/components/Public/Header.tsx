@@ -10,7 +10,7 @@ const Header = () => {
         { label: 'Tin công nghệ', href: '/news', icon: icons.news }
     ]
     return (
-        <header className="py-5">
+        <header className="py-5 border-b">
             <div className="container mx-auto flex justify-between items-center">
                 <a href="">Logo</a>
                 <div className="hidden lg:block">
